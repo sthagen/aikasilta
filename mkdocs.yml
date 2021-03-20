@@ -1,0 +1,24 @@
+
+site_name: Time Bridge
+site_description: The fantastic system to bridge across epocs.
+
+theme:
+  name: 'material'
+
+repo_name: sthagen/fantastic-system
+repo_url: https://github.com/sthagen/fantastic-system
+edit_uri: ""
+
+nav:
+  - Introduction: 'index.md'
+
+markdown_extensions:
+  - mkautodoc
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_javascript:
+  - 'js/chat.js'
+  - 'js/sidecar-1.5.0.js'
+  
