@@ -1,5 +1,8 @@
+aiohttp
 asyncpg
 atlassian-python-api
 attrs
+pydantic
 starlette
+uplink
 websockets
