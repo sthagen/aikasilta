@@ -1,0 +1,4 @@
+asyncpg
+atlassian-python-api
+attrs
+starlette
