@@ -1,17 +1,13 @@
 # -*- coding: utf-8 -*-
-# pylint: disable=line-too-long,missing-docstring,reimported,unused-import,unused-variable
-import logging
-import pathlib
-
 import pytest  # type: ignore
 
-import time_bridge.cli as cli
+import aikasilta.cli as cli
 
 
 def test_main_nok_bad_arg(capsys):
-    with pytest.raises(SystemExit, match="2"):
-        cli.main(["non-existing-thing"], debug=False)
+    with pytest.raises(SystemExit, match='2'):
+        cli.main(['non-existing-thing'], debug=False)
     out, err = capsys.readouterr()
-    assert "error" in out.lower()
-    assert "for now only existing paths accepted." in out.lower()
+    assert 'error' in out.lower()
+    assert 'for now only existing paths accepted.' in out.lower()
     assert not err
