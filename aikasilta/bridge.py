@@ -11,13 +11,13 @@ import sys
 from atlassian import Bitbucket, Confluence, Jira
 
 
-ENCODING = "utf-8"
+ENCODING = 'utf-8'
 
-APP = "time-bridge"
+APP = 'aikasilta'
 
 LOG = logging.getLogger()  # Temporary refactoring: module level logger
-LOG_FOLDER = pathlib.Path("logs")
-LOG_FILE = f"{APP}.log"
+LOG_FOLDER = pathlib.Path('logs')
+LOG_FILE = f'{APP}.log'
 LOG_PATH = (
     pathlib.Path(LOG_FOLDER, LOG_FILE)
     if LOG_FOLDER.is_dir()
@@ -25,7 +25,7 @@ LOG_PATH = (
 )
 LOG_LEVEL = logging.INFO
 
-FAILURE_PATH_REASON = "Failed validation for path %s with error: %s"
+FAILURE_PATH_REASON = 'Failed validation for path %s with error: %s'
 
 
 def init_logger(name=None, level=None):
@@ -33,10 +33,10 @@ def init_logger(name=None, level=None):
     global LOG  # pylint: disable=global-statement
 
     log_format = {
-        "format": "%(asctime)s.%(msecs)03d %(levelname)s [%(name)s]: %(message)s",
-        "datefmt": "%Y-%m-%dT%H:%M:%S",
+        'format': '%(asctime)s.%(msecs)03d %(levelname)s [%(name)s]: %(message)s',
+        'datefmt': '%Y-%m-%dT%H:%M:%S',
         # 'filename': LOG_PATH,
-        "level": LOG_LEVEL if level is None else level,
+        'level': LOG_LEVEL if level is None else level,
     }
     logging.basicConfig(**log_format)
     LOG = logging.getLogger(APP if name is None else name)
@@ -62,29 +62,29 @@ def visit(tree_or_file_path):
     if thing.is_file():
         yield thing
     else:
-        for path in thing.rglob("*"):
+        for path in thing.rglob('*'):
             yield path
 
 
 def slugify(error):
     """Replace newlines by space."""
-    return str(error).replace("\n", "")
+    return str(error).replace('\n', '')
 
 
 def parse_csv(path):
     """Opinionated csv as config parser returning the COHDA protocol."""
     if not path.stat().st_size:
-        return False, "ERROR: Empty CSV file"
+        return False, 'ERROR: Empty CSV file'
 
-    with open(path, newline="") as handle:
+    with open(path, newline='') as handle:
         try:
             try:
-                dialect = csv.Sniffer().sniff(handle.read(1024), ",\t; ")
+                dialect = csv.Sniffer().sniff(handle.read(1024), ',\t; ')
                 handle.seek(0)
             except csv.Error as err:
-                if "could not determine delimiter" in str(err).lower():
+                if 'could not determine delimiter' in str(err).lower():
                     dialect = csv.Dialect()
-                    dialect.delimiter = ","
+                    dialect.delimiter = ','
                     dialect.quoting = csv.QUOTE_NONE
                     dialect.strict = True
                 else:
@@ -93,7 +93,7 @@ def parse_csv(path):
                 reader = csv.reader(handle, dialect)
                 for _ in reader:
                     pass
-                return True, ""
+                return True, ''
             except csv.Error as err:
                 return False, slugify(err)
         except (Exception, csv.Error) as err:
@@ -105,7 +105,7 @@ def parse_ini(path):
     config = configparser.ConfigParser()
     try:
         config.read(path)
-        return True, ""
+        return True, ''
     except (
         configparser.NoSectionError,
         configparser.DuplicateSectionError,
@@ -129,11 +129,11 @@ def parse_json(path):
 def parse_xml(path):
     """Simple xml as config parser returning the COHDA protocol."""
     if not path.stat().st_size:
-        return False, "ERROR: Empty XML file"
+        return False, 'ERROR: Empty XML file'
 
     xml_tree, message = load_xml(path)
     if xml_tree:
-        return True, ""
+        return True, ''
 
     return False, slugify(message)
 
@@ -142,10 +142,10 @@ def parse_generic(path, loader, loader_options=None):
     """Simple generic parser proxy."""
     if loader_options is None:
         loader_options = {}
-    with open(path, "rt", encoding="utf-8") as handle:
+    with open(path, 'rt', encoding='utf-8') as handle:
         try:
             _ = loader(handle, **loader_options)
-            return True, ""
+            return True, ''
         except Exception as err:
             return False, slugify(err)
 
@@ -167,20 +167,20 @@ def main(argv=None, abort=False, debug=None):
     init_logger(level=logging.DEBUG if debug else None)
     forest = argv if argv else sys.argv[1:]
     if not forest:
-        print("Usage: time-bridge paths-to-files")
-        return 0, "USAGE"
+        print('Usage: time-bridge paths-to-files')
+        return 0, 'USAGE'
     num_trees = len(forest)
-    LOG.debug("Guarded dispatch forest=%s, num_trees=%d", forest, num_trees)
+    LOG.debug('Guarded dispatch forest=%s, num_trees=%d', forest, num_trees)
 
     LOG.info(
-        "Starting validation visiting a forest with %d tree%s",
+        'Starting validation visiting a forest with %d tree%s',
         num_trees,
-        "" if num_trees == 1 else "s",
+        '' if num_trees == 1 else 's',
     )
     for tree in forest:
         for path in visit(tree):
-            LOG.debug(" - path=%s", path)
+            LOG.debug(' - path=%s', path)
     failure = False
     print(f"{'OK' if not failure else 'FAIL'}")
 
-    return 0, ""
+    return 0, ''
