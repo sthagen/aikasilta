@@ -1,8 +1,9 @@
-aiohttp
-asyncpg
-atlassian-python-api
-attrs
-pydantic
-starlette
-uplink
-websockets
+Jinja2==3.1.2
+aiohttp==3.8.1
+asyncpg==0.26.0
+atlassian-python-api==3.25.0
+attrs==21.4.0
+starlette==0.20.4
+typer==0.6.1
+uplink==0.9.7
+websockets==10.3
