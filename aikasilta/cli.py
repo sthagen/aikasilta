@@ -6,7 +6,7 @@ import pathlib
 import os
 import sys
 
-import time_bridge.bridge as tb
+import aikasilta.bridge as tb
 
 DEBUG_VAR = "GELEE_DEBUG"
 DEBUG = bool(os.getenv(DEBUG_VAR))
