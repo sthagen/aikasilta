@@ -1,16 +1,53 @@
-
-site_name: Time Bridge
-site_description: The fantastic system to bridge across epocs.
+site_name: Aikasilta
+site_description: "Time bridge (Finnish: aikasilta) - experimental reporting bridge from the Nineties into right now."
 
 theme:
   name: 'material'
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
 
-repo_name: sthagen/fantastic-system
-repo_url: https://github.com/sthagen/fantastic-system
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://git.sr.ht/~sthagen/aikasilta
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/aikasilta
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/shage
+
+copyright: Copyright &copy; 2022 Stefan Hagen under the MIT license
+
+repo_name: ~sthagen/leeway
+repo_url: https://git.sr.ht/~sthagen/aikasilta
 edit_uri: ""
+
+plugins:
+  - search
+  - mkdocstrings
 
 nav:
   - Introduction: 'index.md'
+  - Install: 'install.md'
+  - Usage: 'usage.md'
+  - API: 'api.md'
+  - Changes: 'changes.md'
 
 markdown_extensions:
   - mkautodoc
@@ -19,6 +56,3 @@ markdown_extensions:
   - pymdownx.superfences
 
 extra_javascript:
-  - 'js/chat.js'
-  - 'js/sidecar-1.5.0.js'
-  
