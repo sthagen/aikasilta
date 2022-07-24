@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # pylint: disable=line-too-long
 """Cross the bridge back from the Nineties."""
-import pathlib
 import os
+import pathlib
 import sys
 
 import aikasilta.bridge as tb

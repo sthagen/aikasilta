@@ -8,7 +8,7 @@ import logging
 import pathlib
 import sys
 
-from atlassian import Bitbucket, Confluence, Jira
+# from atlassian import Bitbucket, Confluence, Jira
 
 
 ENCODING = 'utf-8'
@@ -18,11 +18,7 @@ APP = 'aikasilta'
 LOG = logging.getLogger()  # Temporary refactoring: module level logger
 LOG_FOLDER = pathlib.Path('logs')
 LOG_FILE = f'{APP}.log'
-LOG_PATH = (
-    pathlib.Path(LOG_FOLDER, LOG_FILE)
-    if LOG_FOLDER.is_dir()
-    else pathlib.Path(LOG_FILE)
-)
+LOG_PATH = pathlib.Path(LOG_FOLDER, LOG_FILE) if LOG_FOLDER.is_dir() else pathlib.Path(LOG_FILE)
 LOG_LEVEL = logging.INFO
 
 FAILURE_PATH_REASON = 'Failed validation for path %s with error: %s'
@@ -124,6 +120,11 @@ def parse_ini(path):
 def parse_json(path):
     """Simple json as config parser returning the COHDA protocol."""
     return parse_generic(path, json.load)
+
+
+def load_xml(source):
+    """Proxy until implemented."""
+    return NotImplemented
 
 
 def parse_xml(path):
