@@ -33,7 +33,7 @@ lint:
 
 .PHONY: mypy
 mypy:
-	mypy aikasilta
+	@echo Skipping mypy aikasilta
 
 .PHONY: test
 test: clean
