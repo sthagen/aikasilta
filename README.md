@@ -16,7 +16,7 @@ User and developer [documentation of aikasilta](https://codes.dilettant.life/doc
 
 ## Bug Tracker
 
-Feature requests and bug reports are bested entered in the [todos of aikasilta](https://todo.sr.ht/~sthagen/aikasilta).
+Feature requests and bug reports are best entered in the [todos of aikasilta](https://todo.sr.ht/~sthagen/aikasilta).
 
 ## Primary Source repository
 
