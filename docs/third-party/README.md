@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([0a91d189 ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:0a91d189748aebbf0d0c51786dd26b4e7e253ac2eea1dae4613a2597773bd702")).
-<!--[[[end]]] (checksum: 41bcf4e0940b1878ef2eab984ca61ccb)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([130d5147 ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:130d5147eb99d2a15823fd3e788103dc18f7193416e4cd353bfa6fc6821e77c8")).
+<!--[[[end]]] (checksum: 65faa339c37762da4ec719d037002223)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -12,7 +12,7 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 <!--[[[fill direct_dependencies_table()]]]-->
 | Name                                                                          | Version                                                         | License                 | Author            | Description (from packaging data)                                  |
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------|:------------------------|:------------------|:-------------------------------------------------------------------|
-| [aiohttp](https://github.com/aio-libs/aiohttp)                                | [3.8.2](https://pypi.org/project/aiohttp/3.8.2/)                | Apache Software License | UNKNOWN           | Async http client/server framework (asyncio)                       |
+| [aiohttp](https://github.com/aio-libs/aiohttp)                                | [3.8.3](https://pypi.org/project/aiohttp/3.8.3/)                | Apache Software License | UNKNOWN           | Async http client/server framework (asyncio)                       |
 | [asyncpg](https://github.com/MagicStack/asyncpg)                              | [0.26.0](https://pypi.org/project/asyncpg/0.26.0/)              | Apache Software License | MagicStack Inc    | An asyncio PostgreSQL driver                                       |
 | [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | [3.28.1](https://pypi.org/project/atlassian-python-api/3.28.1/) | Apache Software License | Matt Harasymczuk  | Python Atlassian REST API Wrapper                                  |
 | [attrs](https://www.attrs.org/)                                               | [22.1.0](https://pypi.org/project/attrs/22.1.0/)                | MIT License             | Hynek Schlawack   | Classes Without Boilerplate                                        |
@@ -20,7 +20,7 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | [typer](https://github.com/tiangolo/typer)                                    | [0.6.1](https://pypi.org/project/typer/0.6.1/)                  | MIT License             | Sebastián Ramírez | Typer, build great CLIs. Easy to code. Based on Python type hints. |
 | [uplink](https://uplink.readthedocs.io/)                                      | [0.9.7](https://pypi.org/project/uplink/0.9.7/)                 | MIT License             | P. Raj Kumar      | A Declarative HTTP Client for Python.                              |
 | [websockets](https://github.com/aaugustin/websockets)                         | [10.3](https://pypi.org/project/websockets/10.3/)               | BSD License             | Aymeric Augustin  | An implementation of the WebSocket Protocol (RFC 6455 & 7692)      |
-<!--[[[end]]] (checksum: d073a0d9e3f4404afeb4279951bd580d)-->
+<!--[[[end]]] (checksum: dbb9c4462c22ee9a86e2be273d5387a2)-->
 
 ### Indirect Dependencies
 
@@ -44,14 +44,14 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
-aiohttp==3.8.2
+aiohttp==3.8.3
   - aiosignal [required: >=1.1.2, installed: 1.2.0]
     - frozenlist [required: >=1.1.0, installed: 1.3.0]
   - async-timeout [required: >=4.0.0a3,<5.0, installed: 4.0.2]
   - attrs [required: >=17.3.0, installed: 22.1.0]
   - charset-normalizer [required: >=2.0,<3.0, installed: 2.1.0]
   - frozenlist [required: >=1.1.1, installed: 1.3.0]
-  - multidict [required: >=4.5,<6.0, installed: 5.2.0]
+  - multidict [required: >=4.5,<7.0, installed: 5.2.0]
   - yarl [required: >=1.0,<2.0, installed: 1.7.2]
     - idna [required: >=2.0, installed: 3.3]
     - multidict [required: >=4.0, installed: 5.2.0]
@@ -89,4 +89,4 @@ uplink==0.9.7
   - uritemplate [required: >=3.0.0, installed: 4.1.1]
 websockets==10.3
 ````
-<!--[[[end]]] (checksum: ccf7f044a719204c42f0a371f49e114b)-->
+<!--[[[end]]] (checksum: 73741efed0f29a1ca682230ee6851ce7)-->
