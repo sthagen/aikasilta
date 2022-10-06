@@ -7,6 +7,7 @@ import json
 import logging
 import pathlib
 import sys
+from typing import no_type_check
 
 # from atlassian import Bitbucket, Confluence, Jira
 
@@ -24,6 +25,7 @@ LOG_LEVEL = logging.INFO
 FAILURE_PATH_REASON = 'Failed validation for path %s with error: %s'
 
 
+@no_type_check
 def init_logger(name=None, level=None):
     """Initialize module level logger"""
     global LOG  # pylint: disable=global-statement
@@ -39,6 +41,7 @@ def init_logger(name=None, level=None):
     LOG.propagate = True
 
 
+@no_type_check
 def walk_tree_explicit(base_path):
     """Visit the files in the folders below base path."""
     if base_path.is_file():
@@ -52,6 +55,7 @@ def walk_tree_explicit(base_path):
                 yield entry
 
 
+@no_type_check
 def visit(tree_or_file_path):
     """Visit tree and yield the leaves."""
     thing = pathlib.Path(tree_or_file_path)
@@ -62,11 +66,13 @@ def visit(tree_or_file_path):
             yield path
 
 
+@no_type_check
 def slugify(error):
     """Replace newlines by space."""
     return str(error).replace('\n', '')
 
 
+@no_type_check
 def parse_csv(path):
     """Opinionated csv as config parser returning the COHDA protocol."""
     if not path.stat().st_size:
@@ -96,6 +102,7 @@ def parse_csv(path):
             return False, slugify(err)
 
 
+@no_type_check
 def parse_ini(path):
     """Simple ini as config parser returning the COHDA protocol."""
     config = configparser.ConfigParser()
@@ -117,16 +124,19 @@ def parse_ini(path):
         return False, slugify(err)
 
 
+@no_type_check
 def parse_json(path):
     """Simple json as config parser returning the COHDA protocol."""
     return parse_generic(path, json.load)
 
 
+@no_type_check
 def load_xml(source):
     """Proxy until implemented."""
     return NotImplemented
 
 
+@no_type_check
 def parse_xml(path):
     """Simple xml as config parser returning the COHDA protocol."""
     if not path.stat().st_size:
@@ -139,6 +149,7 @@ def parse_xml(path):
     return False, slugify(message)
 
 
+@no_type_check
 def parse_generic(path, loader, loader_options=None):
     """Simple generic parser proxy."""
     if loader_options is None:
@@ -151,6 +162,7 @@ def parse_generic(path, loader, loader_options=None):
             return False, slugify(err)
 
 
+@no_type_check
 def process(path, handler, success, failure):
     """Generic processing of path yields a,ended COHDA protocol."""
     valid, message = handler(path)
@@ -160,7 +172,7 @@ def process(path, handler, success, failure):
     return False, message, success, failure + 1
 
 
-def main(argv=None, abort=False, debug=None):
+def main(argv: dict[str, None] | None = None, abort: bool | None = None, debug: bool | None = None) -> tuple[int, str]:
     """Drive across the bridge.
     This function acts as the command line interface backend.
     There is some duplication to support testability.

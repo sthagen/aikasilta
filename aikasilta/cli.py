@@ -1,6 +1,3 @@
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
-# pylint: disable=line-too-long
 """Cross the bridge back from the Nineties."""
 import os
 import pathlib
@@ -15,8 +12,7 @@ ABORT_VAR = 'AIKASILTA_ABORT'
 ABORT = bool(os.getenv(ABORT_VAR))
 
 
-# pylint: disable=expression-not-assigned
-def main(argv=None, abort=None, debug=None):
+def main(argv: list[str] | None = None, abort: bool | None = None, debug: bool | None = None) -> int:
     """Dispatch processing of the job.
     This is the strings only command line interface.
     For python API use interact with lint functions directly.
