@@ -1,0 +1,12 @@
+---
+urls:
+  typing-extensions: https://github.com/python/typing/blob/master/typing_extensions/README.rst
+  rtoml: https://github.com/samuelcolvin/rtoml/blob/main/README.md
+authors:
+  aiohttp: '"aiohttp team" <team@aiohttp.org>'
+  lazr.uri: '"LAZR Developers" team'
+  msgspec: Jim Crist-Harif
+  starlette: Tom Christie
+  typing-extensions: The Python Typing Team
+descriptions:
+  rtoml: A better TOML library for python implemented in rust.

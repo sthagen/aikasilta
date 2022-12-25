@@ -1,0 +1,23 @@
+---
+packages:
+- aiosignal
+- anyio
+- async-timeout
+- attrs
+- certifi
+- charset-normalizer
+- click
+- deprecated
+- frozenlist
+- idna
+- multidict
+- oauthlib
+- requests
+- requests-oauthlib
+- six
+- sniffio
+- uritemplate
+- urllib3
+- wrapt
+- yarl
+
