@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([130d5147 ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:130d5147eb99d2a15823fd3e788103dc18f7193416e4cd353bfa6fc6821e77c8")).
-<!--[[[end]]] (checksum: 65faa339c37762da4ec719d037002223)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([54b9e05c ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:54b9e05c684c82e24c34d82aeccebe0bad6c9cab5c8f587c29522503410e2166")).
+<!--[[[end]]] (checksum: 55d78dddc1dbe96d1d4df8488aa150a1)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -13,14 +13,14 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | Name                                                                          | Version                                                         | License                 | Author            | Description (from packaging data)                                  |
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------|:------------------------|:------------------|:-------------------------------------------------------------------|
 | [aiohttp](https://github.com/aio-libs/aiohttp)                                | [3.8.3](https://pypi.org/project/aiohttp/3.8.3/)                | Apache Software License | UNKNOWN           | Async http client/server framework (asyncio)                       |
-| [asyncpg](https://github.com/MagicStack/asyncpg)                              | [0.26.0](https://pypi.org/project/asyncpg/0.26.0/)              | Apache Software License | MagicStack Inc    | An asyncio PostgreSQL driver                                       |
-| [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | [3.28.1](https://pypi.org/project/atlassian-python-api/3.28.1/) | Apache Software License | Matt Harasymczuk  | Python Atlassian REST API Wrapper                                  |
-| [attrs](https://www.attrs.org/)                                               | [22.1.0](https://pypi.org/project/attrs/22.1.0/)                | MIT License             | Hynek Schlawack   | Classes Without Boilerplate                                        |
-| [starlette](https://github.com/encode/starlette)                              | [0.20.4](https://pypi.org/project/starlette/0.20.4/)            | BSD License             | Tom Christie      | The little ASGI library that shines.                               |
-| [typer](https://github.com/tiangolo/typer)                                    | [0.6.1](https://pypi.org/project/typer/0.6.1/)                  | MIT License             | Sebastián Ramírez | Typer, build great CLIs. Easy to code. Based on Python type hints. |
+| [asyncpg](https://github.com/MagicStack/asyncpg)                              | [0.27.0](https://pypi.org/project/asyncpg/0.27.0/)              | Apache Software License | MagicStack Inc    | An asyncio PostgreSQL driver                                       |
+| [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | [3.32.1](https://pypi.org/project/atlassian-python-api/3.32.1/) | Apache Software License | Matt Harasymczuk  | Python Atlassian REST API Wrapper                                  |
+| [attrs](https://www.attrs.org/)                                               | [22.2.0](https://pypi.org/project/attrs/22.2.0/)                | MIT License             | Hynek Schlawack   | Classes Without Boilerplate                                        |
+| [typer](https://github.com/tiangolo/typer)                                    | [0.7.0](https://pypi.org/project/typer/0.7.0/)                  | MIT License             | Sebastián Ramírez | Typer, build great CLIs. Easy to code. Based on Python type hints. |
 | [uplink](https://uplink.readthedocs.io/)                                      | [0.9.7](https://pypi.org/project/uplink/0.9.7/)                 | MIT License             | P. Raj Kumar      | A Declarative HTTP Client for Python.                              |
-| [websockets](https://github.com/aaugustin/websockets)                         | [10.3](https://pypi.org/project/websockets/10.3/)               | BSD License             | Aymeric Augustin  | An implementation of the WebSocket Protocol (RFC 6455 & 7692)      |
-<!--[[[end]]] (checksum: dbb9c4462c22ee9a86e2be273d5387a2)-->
+| [websockets](https://github.com/aaugustin/websockets)                         | [10.4](https://pypi.org/project/websockets/10.4/)               | BSD License             | Aymeric Augustin  | An implementation of the WebSocket Protocol (RFC 6455 & 7692)      |
+| starlette                                                                     | [0.23.1](https://pypi.org/project/starlette/0.23.1/)            | BSD License             | UNKNOWN           | The little ASGI library that shines.                               |
+<!--[[[end]]] (checksum: dc2c60b7e58027d33493a01c9ac9eae7)-->
 
 ### Indirect Dependencies
 
@@ -45,48 +45,48 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
 aiohttp==3.8.3
-  - aiosignal [required: >=1.1.2, installed: 1.2.0]
-    - frozenlist [required: >=1.1.0, installed: 1.3.0]
+  - aiosignal [required: >=1.1.2, installed: 1.3.1]
+    - frozenlist [required: >=1.1.0, installed: 1.3.3]
   - async-timeout [required: >=4.0.0a3,<5.0, installed: 4.0.2]
-  - attrs [required: >=17.3.0, installed: 22.1.0]
-  - charset-normalizer [required: >=2.0,<3.0, installed: 2.1.0]
-  - frozenlist [required: >=1.1.1, installed: 1.3.0]
-  - multidict [required: >=4.5,<7.0, installed: 5.2.0]
-  - yarl [required: >=1.0,<2.0, installed: 1.7.2]
-    - idna [required: >=2.0, installed: 3.3]
-    - multidict [required: >=4.0, installed: 5.2.0]
-asyncpg==0.26.0
-atlassian-python-api==3.28.1
+  - attrs [required: >=17.3.0, installed: 22.2.0]
+  - charset-normalizer [required: >=2.0,<3.0, installed: 2.1.1]
+  - frozenlist [required: >=1.1.1, installed: 1.3.3]
+  - multidict [required: >=4.5,<7.0, installed: 6.0.4]
+  - yarl [required: >=1.0,<2.0, installed: 1.8.2]
+    - idna [required: >=2.0, installed: 3.4]
+    - multidict [required: >=4.0, installed: 6.0.4]
+asyncpg==0.27.0
+atlassian-python-api==3.32.1
   - deprecated [required: Any, installed: 1.2.13]
     - wrapt [required: >=1.10,<2, installed: 1.14.1]
-  - oauthlib [required: Any, installed: 3.2.0]
+  - oauthlib [required: Any, installed: 3.2.2]
   - requests [required: Any, installed: 2.28.1]
-    - certifi [required: >=2017.4.17, installed: 2022.6.15]
-    - charset-normalizer [required: >=2,<3, installed: 2.1.0]
-    - idna [required: >=2.5,<4, installed: 3.3]
-    - urllib3 [required: >=1.21.1,<1.27, installed: 1.26.10]
+    - certifi [required: >=2017.4.17, installed: 2022.12.7]
+    - charset-normalizer [required: >=2,<3, installed: 2.1.1]
+    - idna [required: >=2.5,<4, installed: 3.4]
+    - urllib3 [required: >=1.21.1,<1.27, installed: 1.26.13]
   - requests-oauthlib [required: Any, installed: 1.3.1]
-    - oauthlib [required: >=3.0.0, installed: 3.2.0]
+    - oauthlib [required: >=3.0.0, installed: 3.2.2]
     - requests [required: >=2.0.0, installed: 2.28.1]
-      - certifi [required: >=2017.4.17, installed: 2022.6.15]
-      - charset-normalizer [required: >=2,<3, installed: 2.1.0]
-      - idna [required: >=2.5,<4, installed: 3.3]
-      - urllib3 [required: >=1.21.1,<1.27, installed: 1.26.10]
+      - certifi [required: >=2017.4.17, installed: 2022.12.7]
+      - charset-normalizer [required: >=2,<3, installed: 2.1.1]
+      - idna [required: >=2.5,<4, installed: 3.4]
+      - urllib3 [required: >=1.21.1,<1.27, installed: 1.26.13]
   - six [required: Any, installed: 1.16.0]
-starlette==0.20.4
-  - anyio [required: >=3.4.0,<5, installed: 3.6.1]
-    - idna [required: >=2.8, installed: 3.3]
-    - sniffio [required: >=1.1, installed: 1.2.0]
-typer==0.6.1
+starlette==0.23.1
+  - anyio [required: >=3.4.0,<5, installed: 3.6.2]
+    - idna [required: >=2.8, installed: 3.4]
+    - sniffio [required: >=1.1, installed: 1.3.0]
+typer==0.7.0
   - click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
 uplink==0.9.7
   - requests [required: >=2.18.0, installed: 2.28.1]
-    - certifi [required: >=2017.4.17, installed: 2022.6.15]
-    - charset-normalizer [required: >=2,<3, installed: 2.1.0]
-    - idna [required: >=2.5,<4, installed: 3.3]
-    - urllib3 [required: >=1.21.1,<1.27, installed: 1.26.10]
+    - certifi [required: >=2017.4.17, installed: 2022.12.7]
+    - charset-normalizer [required: >=2,<3, installed: 2.1.1]
+    - idna [required: >=2.5,<4, installed: 3.4]
+    - urllib3 [required: >=1.21.1,<1.27, installed: 1.26.13]
   - six [required: >=1.13.0, installed: 1.16.0]
   - uritemplate [required: >=3.0.0, installed: 4.1.1]
-websockets==10.3
+websockets==10.4
 ````
-<!--[[[end]]] (checksum: 73741efed0f29a1ca682230ee6851ce7)-->
+<!--[[[end]]] (checksum: 4b50150f49f83fd98ead398175daa218)-->
