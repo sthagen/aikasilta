@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([c4c332df ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:c4c332df59919e7dfe3a0cd59e9d1be3c7f8264eed379937b71f82cf23f923ae")).
-<!--[[[end]]] (checksum: 527a77752fa3b0db91bfcfe9ca829085)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([6db45997 ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:6db459976fce55aed623cd840a1f04b6cd0f7f0d457854dc207f50bd5eeb1ad3")).
+<!--[[[end]]] (checksum: 1451908fdbb7e6cddfabfffd962869ff)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -35,6 +35,7 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | [charset-normalizer](https://github.com/ousret/charset_normalizer) | [2.1.1](https://pypi.org/project/charset-normalizer/2.1.1/) | MIT License                          | Ahmed TAHRI @Ousret                       | The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet. |
 | [click](https://palletsprojects.com/p/click/)                      | [8.1.3](https://pypi.org/project/click/8.1.3/)              | BSD License                          | Armin Ronacher                            | Composable command line interface toolkit                                                               |
 | [frozenlist](https://github.com/aio-libs/frozenlist)               | [1.3.3](https://pypi.org/project/frozenlist/1.3.3/)         | Apache Software License              | "aiohttp team" <team@aiohttp.org>         | A list-like structure which implements collections.abc.MutableSequence                                  |
+| [idna](https://github.com/kjd/idna/blob/master/README.rst)         | [3.4](https://pypi.org/project/idna/3.4/)                   | BSD License                          | Kim Davies                                | Internationalized Domain Names in Applications (IDNA)                                                   |
 | [multidict](https://github.com/aio-libs/multidict)                 | [6.0.4](https://pypi.org/project/multidict/6.0.4/)          | Apache Software License              | Andrew Svetlov                            | multidict implementation                                                                                |
 | [oauthlib](https://github.com/oauthlib/oauthlib)                   | [3.2.2](https://pypi.org/project/oauthlib/3.2.2/)           | BSD License                          | The OAuthlib Community                    | A generic, spec-compliant, thorough implementation of the OAuth request-signing logic                   |
 | [requests-oauthlib](https://github.com/requests/requests-oauthlib) | [1.3.1](https://pypi.org/project/requests-oauthlib/1.3.1/)  | BSD License                          | Kenneth Reitz                             | OAuthlib authentication support for Requests.                                                           |
@@ -45,8 +46,7 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | [urllib3](https://urllib3.readthedocs.io/)                         | [1.26.13](https://pypi.org/project/urllib3/1.26.13/)        | MIT License                          | Andrey Petrov                             | HTTP library with thread-safe connection pooling, file post, and more.                                  |
 | [wrapt](https://github.com/GrahamDumpleton/wrapt)                  | [1.14.1](https://pypi.org/project/wrapt/1.14.1/)            | BSD License                          | Graham Dumpleton                          | Module for decorators, wrappers and monkey patching.                                                    |
 | [yarl](https://github.com/aio-libs/yarl/)                          | [1.8.2](https://pypi.org/project/yarl/1.8.2/)               | Apache Software License              | Andrew Svetlov                            | Yet another URL library                                                                                 |
-| idna                                                               | [3.4](https://pypi.org/project/idna/3.4/)                   | BSD License                          | Kim Davies                                | Internationalized Domain Names in Applications (IDNA)                                                   |
-<!--[[[end]]] (checksum: 5ca4ae5e5c51cace17b385042b90f09a)-->
+<!--[[[end]]] (checksum: fe20aa31e685fc0f30fc3c5c26d7ac9e)-->
 
 ## Dependency Tree(s)
 
