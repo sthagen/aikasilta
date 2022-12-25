@@ -1,6 +1,7 @@
 ---
 urls:
   anyio: https://github.com/agronholm/anyio/blob/master/README.rst
+  idna: https://github.com/kjd/idna/blob/master/README.rst
   rtoml: https://github.com/samuelcolvin/rtoml/blob/main/README.md
   starlette: https://github.com/encode/starlette/blob/master/README.md
   typing-extensions: https://github.com/python/typing/blob/master/typing_extensions/README.rst
