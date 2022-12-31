@@ -1,5 +1,9 @@
 # Changes
 
+## Source
+
+* Migrated from flake8 and isort to ruff, realized pyproject.toml only, and refactored the make file
+
 ## 2022.7.24
 
 * Bumped dependencies for development and test
