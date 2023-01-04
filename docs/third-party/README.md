@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/sbom.json) with SHA256 checksum ([cf5ebd7d ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/sbom.json.sha256 "sha256:cf5ebd7d28b00b178b3d4a48dbe366a1f6d549a4c613f6635a2dbc15b2571d01")).
-<!--[[[end]]] (checksum: a5895daabbb4862aece9494dfd7f3235)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/sbom.json) with SHA256 checksum ([9265385f ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/sbom.json.sha256 "sha256:9265385fe1dbcb5512cf47a106b769367a7ea5f0d285af88124267f8d4e0973a")).
+<!--[[[end]]] (checksum: 7ce80e6caf24a53c8a69802e9cea5512)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -14,13 +14,13 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------|:------------------------|:----------------------------------|:-------------------------------------------------------------------|
 | [aiohttp](https://github.com/aio-libs/aiohttp)                                | [3.8.3](https://pypi.org/project/aiohttp/3.8.3/)                | Apache Software License | "aiohttp team" <team@aiohttp.org> | Async http client/server framework (asyncio)                       |
 | [asyncpg](https://github.com/MagicStack/asyncpg)                              | [0.27.0](https://pypi.org/project/asyncpg/0.27.0/)              | Apache Software License | MagicStack Inc                    | An asyncio PostgreSQL driver                                       |
-| [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | [3.32.1](https://pypi.org/project/atlassian-python-api/3.32.1/) | Apache Software License | Matt Harasymczuk                  | Python Atlassian REST API Wrapper                                  |
+| [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | [3.32.2](https://pypi.org/project/atlassian-python-api/3.32.2/) | Apache Software License | Matt Harasymczuk                  | Python Atlassian REST API Wrapper                                  |
 | [attrs](https://www.attrs.org/)                                               | [22.2.0](https://pypi.org/project/attrs/22.2.0/)                | MIT License             | Hynek Schlawack                   | Classes Without Boilerplate                                        |
 | [starlette](https://github.com/encode/starlette/blob/master/README.md)        | [0.23.1](https://pypi.org/project/starlette/0.23.1/)            | BSD License             | Tom Christie                      | The little ASGI library that shines.                               |
 | [typer](https://github.com/tiangolo/typer)                                    | [0.7.0](https://pypi.org/project/typer/0.7.0/)                  | MIT License             | Sebastián Ramírez                 | Typer, build great CLIs. Easy to code. Based on Python type hints. |
 | [uplink](https://uplink.readthedocs.io/)                                      | [0.9.7](https://pypi.org/project/uplink/0.9.7/)                 | MIT License             | P. Raj Kumar                      | A Declarative HTTP Client for Python.                              |
 | [websockets](https://github.com/aaugustin/websockets)                         | [10.4](https://pypi.org/project/websockets/10.4/)               | BSD License             | Aymeric Augustin                  | An implementation of the WebSocket Protocol (RFC 6455 & 7692)      |
-<!--[[[end]]] (checksum: 0032c32fcda031d07470bb8e6e00379c)-->
+<!--[[[end]]] (checksum: 4ac295dd688422b8c8bd8dacdb1e3159)-->
 
 ### Indirect Dependencies
 
@@ -74,7 +74,7 @@ aiohttp==3.8.3
     - idna [required: >=2.0, installed: 3.4]
     - multidict [required: >=4.0, installed: 6.0.4]
 asyncpg==0.27.0
-atlassian-python-api==3.32.1
+atlassian-python-api==3.32.2
   - deprecated [required: Any, installed: 1.2.13]
     - wrapt [required: >=1.10,<2, installed: 1.14.1]
   - oauthlib [required: Any, installed: 3.2.2]
@@ -107,4 +107,4 @@ uplink==0.9.7
   - uritemplate [required: >=3.0.0, installed: 4.1.1]
 websockets==10.4
 ````
-<!--[[[end]]] (checksum: 4b50150f49f83fd98ead398175daa218)-->
+<!--[[[end]]] (checksum: e87d5b9cf891cd1c9e25b3180ec2952b)-->
