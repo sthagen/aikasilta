@@ -4,7 +4,7 @@ Time bridge (Finnish: aikasilta) - experimental reporting bridge from the Nineti
 
 [License: MIT](https://github.com/sthagen/aikasilta/blob/default/LICENSE)
 
-Third party dependencies are documented in the folder [third-party](third-party/README.md).
+Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/aikasilta.svg?style=flat)](https://pypi.python.org/pypi/aikasilta/)
 [![downloads](https://pepy.tech/badge/aikasilta/month)](https://pepy.tech/project/aikasilta)
