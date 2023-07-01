@@ -11,6 +11,7 @@ Third party dependencies are documented in the folder [third-party](docs/third-p
 [![wheel](https://img.shields.io/pypi/wheel/aikasilta.svg?style=flat)](https://pypi.python.org/pypi/aikasilta/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/aikasilta.svg?style=flat)](https://pypi.python.org/pypi/aikasilta/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/aikasilta.svg?style=flat)](https://pypi.python.org/pypi/aikasilta/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/aikasilta.svg?style=flat)](https://git.sr.ht/~sthagen/aikasilta/log)
 
 ## Documentation
 
