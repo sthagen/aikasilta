@@ -1,5 +1,7 @@
 site_name: Aikasilta
 site_description: "Time bridge (Finnish: aikasilta) - experimental reporting bridge from the Nineties into right now."
+docs_dir: ../docs
+site_dir: ../site
 
 theme:
   name: 'material'
