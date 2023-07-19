@@ -1,5 +1,5 @@
 Jinja2==3.1.2
-aiohttp==3.8.4
+aiohttp==3.8.5
 asyncpg==0.28.0
 atlassian-python-api==3.39.0
 attrs==23.1.0
