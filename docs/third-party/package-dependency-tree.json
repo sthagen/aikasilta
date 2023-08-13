@@ -2,8 +2,8 @@
     {
         "key": "aiohttp",
         "package_name": "aiohttp",
-        "installed_version": "3.8.4",
-        "required_version": "3.8.4",
+        "installed_version": "3.8.5",
+        "required_version": "3.8.5",
         "dependencies": [
             {
                 "key": "aiosignal",
@@ -89,8 +89,8 @@
     {
         "key": "atlassian-python-api",
         "package_name": "atlassian-python-api",
-        "installed_version": "3.39.0",
-        "required_version": "3.39.0",
+        "installed_version": "3.40.1",
+        "required_version": "3.40.1",
         "dependencies": [
             {
                 "key": "deprecated",
@@ -213,8 +213,8 @@
     {
         "key": "starlette",
         "package_name": "starlette",
-        "installed_version": "0.28.0",
-        "required_version": "0.28.0",
+        "installed_version": "0.31.0",
+        "required_version": "0.31.0",
         "dependencies": [
             {
                 "key": "anyio",
