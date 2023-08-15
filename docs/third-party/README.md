@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/sbom/cdx.json) with SHA256 checksum ([32561853 ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/sbom/cdx.json.sha256 "sha256:325618533862c26401fcb6a75cb360e4b0b6b4c8fa29cd219d0eca48597c1cb4")).
-<!--[[[end]]] (checksum: aa86b14b701a1f5861d432b46c353093)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/sbom/cdx.json) with SHA256 checksum ([a6ad1279 ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/sbom/cdx.json.sha256 "sha256:a6ad1279727e4e9084e7d4e5d4126c73684e89ccb798dc4b631ad4044028a2ae")).
+<!--[[[end]]] (checksum: 3560aef7ddf0e7565c8d55bd1f73adf4)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -62,51 +62,6 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
-aiohttp==3.8.5
-├── aiosignal [required: >=1.1.2, installed: 1.3.1]
-│   └── frozenlist [required: >=1.1.0, installed: 1.4.0]
-├── async-timeout [required: >=4.0.0a3,<5.0, installed: 4.0.2]
-├── attrs [required: >=17.3.0, installed: 23.1.0]
-├── charset-normalizer [required: >=2.0,<4.0, installed: 3.2.0]
-├── frozenlist [required: >=1.1.1, installed: 1.4.0]
-├── multidict [required: >=4.5,<7.0, installed: 6.0.4]
-└── yarl [required: >=1.0,<2.0, installed: 1.9.2]
-    ├── idna [required: >=2.0, installed: 3.4]
-    └── multidict [required: >=4.0, installed: 6.0.4]
-asyncpg==0.28.0
-atlassian-python-api==3.40.1
-├── Deprecated [required: Any, installed: 1.2.14]
-│   └── wrapt [required: >=1.10,<2, installed: 1.15.0]
-├── oauthlib [required: Any, installed: 3.2.2]
-├── requests [required: Any, installed: 2.31.0]
-│   ├── certifi [required: >=2017.4.17, installed: 2023.5.7]
-│   ├── charset-normalizer [required: >=2,<4, installed: 3.2.0]
-│   ├── idna [required: >=2.5,<4, installed: 3.4]
-│   └── urllib3 [required: >=1.21.1,<3, installed: 2.0.3]
-├── requests-oauthlib [required: Any, installed: 1.3.1]
-│   ├── oauthlib [required: >=3.0.0, installed: 3.2.2]
-│   └── requests [required: >=2.0.0, installed: 2.31.0]
-│       ├── certifi [required: >=2017.4.17, installed: 2023.5.7]
-│       ├── charset-normalizer [required: >=2,<4, installed: 3.2.0]
-│       ├── idna [required: >=2.5,<4, installed: 3.4]
-│       └── urllib3 [required: >=1.21.1,<3, installed: 2.0.3]
-└── six [required: Any, installed: 1.16.0]
-starlette==0.31.0
-└── anyio [required: >=3.4.0,<5, installed: 3.7.1]
-    ├── exceptiongroup [required: Any, installed: 1.1.2]
-    ├── idna [required: >=2.8, installed: 3.4]
-    └── sniffio [required: >=1.1, installed: 1.3.0]
-typer==0.9.0
-├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
-└── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
-uplink==0.9.7
-├── requests [required: >=2.18.0, installed: 2.31.0]
-│   ├── certifi [required: >=2017.4.17, installed: 2023.5.7]
-│   ├── charset-normalizer [required: >=2,<4, installed: 3.2.0]
-│   ├── idna [required: >=2.5,<4, installed: 3.4]
-│   └── urllib3 [required: >=1.21.1,<3, installed: 2.0.3]
-├── six [required: >=1.13.0, installed: 1.16.0]
-└── uritemplate [required: >=3.0.0, installed: 4.1.1]
-websockets==11.0.3
+
 ````
-<!--[[[end]]] (checksum: 8d831b9680d6f37be9991920f47350c6)-->
+<!--[[[end]]] (checksum: 3c785458cb78583f093698f578ae7d19)-->
