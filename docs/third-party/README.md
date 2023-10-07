@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([59cd146b ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json.sha256 "sha256:59cd146bf9b2a5bf65c9013796fc908e9b290fe7b76f3cabb7e9bc31cc818316")).
-<!--[[[end]]] (checksum: 6f195292a40d1d4a6117168ad859cccd)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([8eda95ff ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json.sha256 "sha256:8eda95ff2da0258d9a2b7d7c306e96a3cb6924ac4a78bf7ed104fa413711520f")).
+<!--[[[end]]] (checksum: 44c1234578a15a5d67f648d1f0555644)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -33,7 +33,7 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | [async-timeout](https://github.com/aio-libs/async-timeout)          | [4.0.2](https://pypi.org/project/async-timeout/4.0.2/)      | Apache Software License              | Andrew Svetlov <andrew.svetlov@gmail.com> | Timeout context manager for asyncio programs                                                            |
 | [certifi](https://github.com/certifi/python-certifi)                | [2023.5.7](https://pypi.org/project/certifi/2023.5.7/)      | Mozilla Public License 2.0 (MPL 2.0) | Kenneth Reitz                             | Python package for providing Mozilla's CA Bundle.                                                       |
 | [charset-normalizer](https://github.com/Ousret/charset_normalizer)  | [3.2.0](https://pypi.org/project/charset-normalizer/3.2.0/) | MIT License                          | Ahmed TAHRI                               | The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet. |
-| [click](https://palletsprojects.com/p/click/)                       | [8.1.5](https://pypi.org/project/click/8.1.5/)              | BSD License                          | UNKNOWN                                   | Composable command line interface toolkit                                                               |
+| [click](https://palletsprojects.com/p/click/)                       | [8.1.5](https://pypi.org/project/click/8.1.5/)              | BSD License                          | Pallets <contact@palletsprojects.com>     | Composable command line interface toolkit                                                               |
 | [frozenlist](https://github.com/aio-libs/frozenlist)                | [1.4.0](https://pypi.org/project/frozenlist/1.4.0/)         | Apache Software License              | "aiohttp team" <team@aiohttp.org>         | A list-like structure which implements collections.abc.MutableSequence                                  |
 | [idna](https://github.com/kjd/idna)                                 | [3.4](https://pypi.org/project/idna/3.4/)                   | BSD License                          | Kim Davies <kim@cynosure.com.au>          | Internationalized Domain Names in Applications (IDNA)                                                   |
 | [multidict](https://github.com/aio-libs/multidict)                  | [6.0.4](https://pypi.org/project/multidict/6.0.4/)          | Apache Software License              | Andrew Svetlov                            | multidict implementation                                                                                |
@@ -46,7 +46,7 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | [urllib3](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst) | [2.0.3](https://pypi.org/project/urllib3/2.0.3/)            | MIT License                          | Andrey Petrov <andrey.petrov@shazow.net>  | HTTP library with thread-safe connection pooling, file post, and more.                                  |
 | [wrapt](https://github.com/GrahamDumpleton/wrapt)                   | [1.15.0](https://pypi.org/project/wrapt/1.15.0/)            | BSD License                          | Graham Dumpleton                          | Module for decorators, wrappers and monkey patching.                                                    |
 | [yarl](https://github.com/aio-libs/yarl/)                           | [1.9.2](https://pypi.org/project/yarl/1.9.2/)               | Apache Software License              | Andrew Svetlov                            | Yet another URL library                                                                                 |
-<!--[[[end]]] (checksum: 88c41e2c8da3432f154aed3673874cc6)-->
+<!--[[[end]]] (checksum: cca10dabeaeb915fbc4a9928d9bea343)-->
 
 ## Dependency Tree(s)
 
