@@ -2,7 +2,9 @@
 
 Time bridge (Finnish: aikasilta) - experimental reporting bridge from the Nineties into right now.
 
-[License: MIT](https://github.com/sthagen/aikasilta/blob/default/LICENSE)
+[License: MIT](https://github.com/sthagen/aikasilta/blob/default/LICENSE) |
+[Country of origin: Switzerland](https://git.sr.ht/~sthagen/aikasilta/tree/default/item/COUNTRY-OF-ORIGIN) |
+[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/aikasilta/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 
 Third party dependencies are documented in the folder [third-party](third-party/README.md).
 
