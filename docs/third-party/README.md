@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([771199f7 ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json.sha256 "sha256:771199f7e34af00a402647824274ac72de91375048da12f9af3f23b8d1b1cd1e")).
-<!--[[[end]]] (checksum: a644d84fbddf2dba3b32b9e0dcbdf0e4)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([a6f22c21 ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json.sha256 "sha256:a6f22c21b0ee902f368710a634fe0bfe9e4430ca359b3f528dc242a9ef9e6d0c")).
+<!--[[[end]]] (checksum: e4125c633984b99e0f8eb7dea535f401)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -13,14 +13,14 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | Name                                                                          | Version                                                         | License                 | Author                                      | Description (from packaging data)                                  |
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------|:------------------------|:--------------------------------------------|:-------------------------------------------------------------------|
 | [aiohttp](https://github.com/aio-libs/aiohttp)                                | [3.8.6](https://pypi.org/project/aiohttp/3.8.6/)                | Apache Software License | "aiohttp team" <team@aiohttp.org>           | Async http client/server framework (asyncio)                       |
-| [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | [3.41.2](https://pypi.org/project/atlassian-python-api/3.41.2/) | Apache Software License | Matt Harasymczuk                            | Python Atlassian REST API Wrapper                                  |
+| [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | [3.41.3](https://pypi.org/project/atlassian-python-api/3.41.3/) | Apache Software License | Matt Harasymczuk                            | Python Atlassian REST API Wrapper                                  |
 | [attrs](https://www.attrs.org/en/stable/changelog.html)                       | [23.1.0](https://pypi.org/project/attrs/23.1.0/)                | MIT License             | Hynek Schlawack <hs@ox.cx>                  | Classes Without Boilerplate                                        |
 | [starlette](https://github.com/encode/starlette)                              | [0.31.1](https://pypi.org/project/starlette/0.31.1/)            | BSD License             | Tom Christie <tom@tomchristie.com>          | The little ASGI library that shines.                               |
 | [typer](https://github.com/tiangolo/typer)                                    | [0.9.0](https://pypi.org/project/typer/0.9.0/)                  | MIT License             | Sebastián Ramírez                           | Typer, build great CLIs. Easy to code. Based on Python type hints. |
 | [uplink](https://uplink.readthedocs.io/)                                      | [0.9.7](https://pypi.org/project/uplink/0.9.7/)                 | MIT License             | P. Raj Kumar                                | A Declarative HTTP Client for Python.                              |
 | [websockets](https://github.com/aaugustin/websockets)                         | [11.0.3](https://pypi.org/project/websockets/11.0.3/)           | BSD License             | Aymeric Augustin <aymeric.augustin@m4x.org> | An implementation of the WebSocket Protocol (RFC 6455 & 7692)      |
 | asyncpg                                                                       | [0.28.0](https://pypi.org/project/asyncpg/0.28.0/)              | Apache Software License | MagicStack Inc <hello@magic.io>             | An asyncio PostgreSQL driver                                       |
-<!--[[[end]]] (checksum: e4a6dedc5d85f220fa26c7cc0ae8e3f7)-->
+<!--[[[end]]] (checksum: 45459357f3c14a545d33106d6678bad0)-->
 
 ### Indirect Dependencies
 
