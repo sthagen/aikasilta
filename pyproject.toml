@@ -28,7 +28,7 @@ dependencies = [
     "starlette >= 0.31.1",
     "typer >= 0.9.0",
     "uplink >= 0.9.7",
-    "websockets >= 11.0.3",
+    "websockets >= 12.0",
 ]
 requires-python = ">=3.9"
 
