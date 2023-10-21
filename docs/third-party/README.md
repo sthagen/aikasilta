@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([a6f22c21 ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json.sha256 "sha256:a6f22c21b0ee902f368710a634fe0bfe9e4430ca359b3f528dc242a9ef9e6d0c")).
-<!--[[[end]]] (checksum: e4125c633984b99e0f8eb7dea535f401)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([19601734 ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json.sha256 "sha256:196017340f8a1f30ae626267a98a92544e3ddb687b6be8e09e8cde0743b7b993")).
+<!--[[[end]]] (checksum: 613492aa7faa25aa25fd3c29fc3b10d6)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -18,9 +18,9 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | [starlette](https://github.com/encode/starlette)                              | [0.31.1](https://pypi.org/project/starlette/0.31.1/)            | BSD License             | Tom Christie <tom@tomchristie.com>          | The little ASGI library that shines.                               |
 | [typer](https://github.com/tiangolo/typer)                                    | [0.9.0](https://pypi.org/project/typer/0.9.0/)                  | MIT License             | Sebastián Ramírez                           | Typer, build great CLIs. Easy to code. Based on Python type hints. |
 | [uplink](https://uplink.readthedocs.io/)                                      | [0.9.7](https://pypi.org/project/uplink/0.9.7/)                 | MIT License             | P. Raj Kumar                                | A Declarative HTTP Client for Python.                              |
-| [websockets](https://github.com/aaugustin/websockets)                         | [11.0.3](https://pypi.org/project/websockets/11.0.3/)           | BSD License             | Aymeric Augustin <aymeric.augustin@m4x.org> | An implementation of the WebSocket Protocol (RFC 6455 & 7692)      |
+| [websockets](https://github.com/python-websockets/websockets)                 | [12.0](https://pypi.org/project/websockets/12.0/)               | BSD License             | Aymeric Augustin <aymeric.augustin@m4x.org> | An implementation of the WebSocket Protocol (RFC 6455 & 7692)      |
 | asyncpg                                                                       | [0.28.0](https://pypi.org/project/asyncpg/0.28.0/)              | Apache Software License | MagicStack Inc <hello@magic.io>             | An asyncio PostgreSQL driver                                       |
-<!--[[[end]]] (checksum: 45459357f3c14a545d33106d6678bad0)-->
+<!--[[[end]]] (checksum: fb2a1f48f71e7a3a10e5f94288c78509)-->
 
 ### Indirect Dependencies
 
