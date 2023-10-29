@@ -2,15 +2,15 @@
 
 Time bridge (Finnish: aikasilta) - experimental reporting bridge from the Nineties into right now.
 
-[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/aikasiltaNAME/tree/default/item/LICENSE)
-[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/aikasiltaNAME/tree/default/item/COUNTRY-OF-ORIGIN)
-[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/aikasiltaNAME/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/aikasilta/tree/default/item/LICENSE)
+[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/aikasilta/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/aikasilta/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 [![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-[![Version](https://img.shields.io/pypi/v/aikasiltaNAME.svg?style=flat)](https://pypi.python.org/pypi/aikasiltaNAME/)
-[![Downloads](https://static.pepy.tech/badge/aikasiltaNAME/month)](https://pepy.tech/project/aikasiltaNAME)
-[![Supported Versions](https://img.shields.io/pypi/pyversions/aikasiltaNAME.svg?style=flat)](https://pypi.python.org/pypi/aikasiltaNAME/)
-[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/aikasiltaNAME.svg?style=flat)](https://git.sr.ht/~sthagen/aikasiltaNAME/log)
+[![Version](https://img.shields.io/pypi/v/aikasilta.svg?style=flat)](https://pypi.python.org/pypi/aikasilta/)
+[![Downloads](https://static.pepy.tech/badge/aikasilta/month)](https://pepy.tech/project/aikasilta)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/aikasilta.svg?style=flat)](https://pypi.python.org/pypi/aikasilta/)
+[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/aikasilta.svg?style=flat)](https://git.sr.ht/~sthagen/aikasilta/log)
 
 ## Bug Tracker
 
