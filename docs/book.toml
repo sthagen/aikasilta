@@ -11,7 +11,16 @@ title = "Aikasilta"
 builddir = "book"
 
 [output.html]
-mathjax-support = true
-site-url = "/docs/aikasilta"
+default-theme = "coal"
 git-repository-url = "https://git.sr.ht/~sthagen/aikasilta"
+git-repository-icon = "fa-code-fork"
+mathjax-support = true
+no-section-label = true
+preferred-dark-theme = "navy"
+site-url = "/docs/aikasilta"
 
+[output.html.print]
+enable = false
+
+[output.html.fold]
+enable = false
