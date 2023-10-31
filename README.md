@@ -9,7 +9,7 @@ Time bridge (Finnish: aikasilta) - experimental reporting bridge from the Nineti
 
 [![Version](docs/badges/latest-release.svg)](https://pypi.python.org/pypi/aikasilta/)
 [![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/aikasilta)
-[![Supported Versions](https://img.shields.io/pypi/pyversions/aikasilta.svg?style=flat)](https://pypi.python.org/pypi/aikasilta/)
+[![Python](docs/badges/python-versions.svg)](https://pypi.python.org/pypi/aikasilta/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/aikasilta/log)
 
 ## Documentation
