@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([fad23712 ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json.sha256 "sha256:fad237123a30e79a83ea345206d204a241f308ab9284b9ebba21fedcc337b269")).
-<!--[[[end]]] (checksum: 97e34513b09441127f40f2c67526e1aa)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([e9dda7bb ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json.sha256 "sha256:e9dda7bb94c2db006e1842f534e7060ada4f08d189bb2654425eb48363777eb9")).
+<!--[[[end]]] (checksum: 617a50b1a85aa936264cd7a3e971ffcf)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -12,7 +12,7 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 <!--[[[fill direct_dependencies_table()]]]-->
 | Name                                                                          | Version                                                          | License                 | Author                                      | Description (from packaging data)                                  |
 |:------------------------------------------------------------------------------|:-----------------------------------------------------------------|:------------------------|:--------------------------------------------|:-------------------------------------------------------------------|
-| [aiohttp](https://github.com/aio-libs/aiohttp)                                | [3.9.0](https://pypi.org/project/aiohttp/3.9.0/)                 | Apache Software License | "aiohttp team" <team@aiohttp.org>           | Async http client/server framework (asyncio)                       |
+| [aiohttp](https://github.com/aio-libs/aiohttp)                                | [3.9.1](https://pypi.org/project/aiohttp/3.9.1/)                 | Apache Software License | "aiohttp team" <team@aiohttp.org>           | Async http client/server framework (asyncio)                       |
 | [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | [3.41.3](https://pypi.org/project/atlassian-python-api/3.41.3/)  | Apache Software License | Matt Harasymczuk                            | Python Atlassian REST API Wrapper                                  |
 | [attrs](https://www.attrs.org/en/stable/changelog.html)                       | [23.1.0](https://pypi.org/project/attrs/23.1.0/)                 | MIT License             | Hynek Schlawack <hs@ox.cx>                  | Classes Without Boilerplate                                        |
 | [starlette](https://github.com/encode/starlette)                              | [0.32.0.post1](https://pypi.org/project/starlette/0.32.0.post1/) | BSD License             | Tom Christie <tom@tomchristie.com>          | The little ASGI library that shines.                               |
@@ -20,7 +20,7 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | [uplink](https://uplink.readthedocs.io/)                                      | [0.9.7](https://pypi.org/project/uplink/0.9.7/)                  | MIT License             | P. Raj Kumar                                | A Declarative HTTP Client for Python.                              |
 | [websockets](https://github.com/python-websockets/websockets)                 | [12.0](https://pypi.org/project/websockets/12.0/)                | BSD License             | Aymeric Augustin <aymeric.augustin@m4x.org> | An implementation of the WebSocket Protocol (RFC 6455 & 7692)      |
 | asyncpg                                                                       | [0.29.0](https://pypi.org/project/asyncpg/0.29.0/)               | Apache Software License | MagicStack Inc <hello@magic.io>             | An asyncio PostgreSQL driver                                       |
-<!--[[[end]]] (checksum: 9ad085bd0c1fcf2a799cbe269ad0e792)-->
+<!--[[[end]]] (checksum: 178156aa9ace561cddd8ea69ce89bb06)-->
 
 ### Indirect Dependencies
 
