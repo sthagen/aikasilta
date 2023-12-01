@@ -3,7 +3,7 @@ aiohttp==3.9.1
 asyncpg==0.29.0
 atlassian-python-api==3.41.4
 attrs==23.1.0
-starlette==0.32.0.post1
+starlette==0.33.0
 typer==0.9.0
 uplink==0.9.7
 websockets==12.0
