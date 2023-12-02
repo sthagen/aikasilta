@@ -1,7 +1,7 @@
 {
   "aikasilta": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:13:00.006317",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 15:49:06 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 57,
@@ -13,6 +13,22 @@
     "num_branches": 42,
     "num_partial_branches": 2,
     "covered_branches": 4,
-    "missing_branches": 38
+    "missing_branches": 38,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 3,
+    "files": [
+      "aikasilta/__init__.py",
+      "aikasilta/bridge.py",
+      "aikasilta/cli.py"
+    ],
+    "blake3": "a078c2f5f04ae70412ae2b29889395b871cc9db1cfd9771a9a2ab1c5fc3f11bc",
+    "blake2": "47a02205786abaa5e5cd815a059444d4c1cee120a95272329ac39ea8672a2116282f2ff1efd1a54a6afd9e35650b3be0be465a379d34a9a25546ce6214a1314c",
+    "sha512": "441ce81b49a30a30e03e136edc13421c12ddbf4e0f7d841b42da8e0154f22f56807df78b285fa183c5bf341c70eda82ae783c204d49a4c5b86740c1b50544f3e",
+    "sha384": "395d894e49964448a33d3467845c24ad8a13f36835e954cf226b1605559c381af7918bfc17489afa6594cb2f2b58b606",
+    "sha256": "8741ab0cdc30d38a1a5f6ef785eae00b7411590134a28d2aa584128e2f520fc5",
+    "sha1": "446882eb295eca59f903d07dcd1218c4e96fb684",
+    "md5": "269aa734a41c37aec60a998cab29c068",
+    "python_version": "3.10.12",
+    "entropy": 4.77626
   }
 }
