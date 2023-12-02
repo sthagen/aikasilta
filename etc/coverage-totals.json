@@ -1,3 +1,18 @@
 {
-  "aikasilta": {}
+  "aikasilta": {
+    "version": "7.3.2",
+    "timestamp": "2023-12-02T15:13:00.006317",
+    "branch_coverage": true,
+    "show_contexts": true,
+    "covered_lines": 57,
+    "num_statements": 139,
+    "percent_covered": 33.70165745856354,
+    "percent_covered_display": "33.70",
+    "missing_lines": 82,
+    "excluded_lines": 0,
+    "num_branches": 42,
+    "num_partial_branches": 2,
+    "covered_branches": 4,
+    "missing_branches": 38
+  }
 }
