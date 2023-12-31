@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([4731acf9 ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json.sha256 "sha256:4731acf96d670f7b9293c7bfda282d47c976d1961337fcc0e3364cc2dc3425ef")).
-<!--[[[end]]] (checksum: 6a047f4fda3515b68cd38cb6692cbc83)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([51224972 ...](https://git.sr.ht/~sthagen/aikasilta/blob/default/etc/sbom/cdx.json.sha256 "sha256:5122497249d9a949305a72ce6895691cf7f21679865304b297d02da3cf5ad99d")).
+<!--[[[end]]] (checksum: 3f8318e0bbcfd57fb01a5a6e40aea24f)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -14,13 +14,13 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------|:------------------------|:--------------------------------------------|:-------------------------------------------------------------------|
 | [aiohttp](https://github.com/aio-libs/aiohttp)                                | [3.9.1](https://pypi.org/project/aiohttp/3.9.1/)                | Apache Software License | "aiohttp team" <team@aiohttp.org>           | Async http client/server framework (asyncio)                       |
 | [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | [3.41.4](https://pypi.org/project/atlassian-python-api/3.41.4/) | Apache Software License | Matt Harasymczuk                            | Python Atlassian REST API Wrapper                                  |
-| [attrs](https://www.attrs.org/en/stable/changelog.html)                       | [23.1.0](https://pypi.org/project/attrs/23.1.0/)                | MIT License             | Hynek Schlawack <hs@ox.cx>                  | Classes Without Boilerplate                                        |
+| [attrs](https://www.attrs.org/en/stable/changelog.html)                       | [23.2.0](https://pypi.org/project/attrs/23.2.0/)                | MIT License             | Hynek Schlawack <hs@ox.cx>                  | Classes Without Boilerplate                                        |
 | [starlette](https://github.com/encode/starlette)                              | [0.34.0](https://pypi.org/project/starlette/0.34.0/)            | BSD License             | Tom Christie <tom@tomchristie.com>          | The little ASGI library that shines.                               |
 | [typer](https://github.com/tiangolo/typer)                                    | [0.9.0](https://pypi.org/project/typer/0.9.0/)                  | MIT License             | Sebastián Ramírez                           | Typer, build great CLIs. Easy to code. Based on Python type hints. |
 | [uplink](https://uplink.readthedocs.io/)                                      | [0.9.7](https://pypi.org/project/uplink/0.9.7/)                 | MIT License             | P. Raj Kumar                                | A Declarative HTTP Client for Python.                              |
 | [websockets](https://github.com/python-websockets/websockets)                 | [12.0](https://pypi.org/project/websockets/12.0/)               | BSD License             | Aymeric Augustin <aymeric.augustin@m4x.org> | An implementation of the WebSocket Protocol (RFC 6455 & 7692)      |
 | asyncpg                                                                       | [0.29.0](https://pypi.org/project/asyncpg/0.29.0/)              | Apache Software License | MagicStack Inc <hello@magic.io>             | An asyncio PostgreSQL driver                                       |
-<!--[[[end]]] (checksum: d2ea94a432d4730e7d0592dbd168408b)-->
+<!--[[[end]]] (checksum: 6ba0cca88ed46064a2d361f752107283)-->
 
 ### Indirect Dependencies
 
