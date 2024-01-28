@@ -7,6 +7,7 @@ name = "aikasilta"
 version = "2022.7.24"
 description = "Time bridge (Finnish: aikasilta) - experimental reporting bridge from the Nineties into right now."
 readme = "README.md"
+license = {file = "LICENSE"}
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
 maintainers = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
 classifiers = [
