@@ -1,4 +1,5 @@
 """Cross the bridge back from the Nineties."""
+
 import os
 import pathlib
 import sys
