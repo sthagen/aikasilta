@@ -20,6 +20,7 @@
       "last_month": -1,
       "last_week": -1
     },
+    "dynamic": null,
     "home_page": "https://git.sr.ht/~sthagen/aikasilta",
     "keywords": "developer-tools,devops",
     "license": "",
@@ -35,6 +36,7 @@
       "Homepage": "https://git.sr.ht/~sthagen/aikasilta",
       "Source Code": "https://git.sr.ht/~sthagen/aikasilta"
     },
+    "provides_extra": null,
     "release_url": "https://pypi.org/project/aikasilta/2022.7.24/",
     "requires_dist": [
       "Jinja2 (>=3.1.2)",
