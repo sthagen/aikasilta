@@ -1,9 +1,9 @@
 Jinja2==3.1.6
-aiohttp==3.13.2
+aiohttp==3.13.4
 asyncpg==0.31.0
 atlassian-python-api==4.0.7
-attrs==25.4.0
-starlette==0.50.0
-typer==0.20.0
+attrs==26.1.0
+starlette==1.0.0
+typer==0.24.1
 uplink==0.10.0
-websockets==15.0.1
+websockets==16.0

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # pylint: disable=c-extension-no-member,expression-not-assigned,line-too-long,logging-fstring-interpolation
 """Build a bridge back from the Nineties."""
+
 import configparser
 import csv
 import json
